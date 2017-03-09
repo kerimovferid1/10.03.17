@@ -130,6 +130,18 @@ body {
     background: #745154;
 }
 @media (min-width: 500px) and (max-width: 760px){
+    #slider>.main>.row>.col_2{
+   width: 45%;
+}
+#slider>.main>.row>.col_22{
+   width: 53%;
+}
+    #slider>.main>.row>.col_8{
+    width:0;
+}
+ #header>.main>.hR>ul>li:last-child{
+       display: none;
+    }
     #header>.main>.hR>ul{
         display: block;
     }
@@ -167,8 +179,11 @@ margin-left: 1px;
 #slider>.main>.row>.col_2{
    width: 45%;
 }
+#slider>.main>.row>.col_22{
+   width: 53%;
+}
     #slider>.main>.row>.col_8{
-    width:35%;
+    width:0;
 }
  #header>.main>.hR>ul>li:last-child{
        display: none;
@@ -290,4 +305,10 @@ display: inline-block;
     #header>.main>.hR>ul>li:nth-child(8){
     display: none;
 }
+ #slider>.main>.row>.col_8{
+        width: 60.6667%;
+ }
+ #slider>.main>.row>.col_2{
+            width: 21.667%;
+ }
 }
