@@ -61,7 +61,10 @@ width: 50%;
 	align-items:flex-end; 
 }
 #slider{
-	height: 970px;
+	height: 900px;
+	 background-size:cover;
+	 transition: 0.6s;
+
 /*background-image: url("../white-images-master/slider/slide1_bg.jpg");*/
 /*position: relative;
 */}
@@ -74,6 +77,10 @@ width: 50%;
 /*#slider>.main>.col_12:first-child{
 	margin-bottom: 35%;;
 }*/
+#slider{
+	position: relative;
+	top: 80px;
+}
 #slider>.main>.row:first-child{
 	margin-bottom: 35%;;
 }
@@ -208,24 +215,28 @@ display: inline-block;
 	font-size: 80px;
 	font-weight: 900;
 	font-family: myFirstFontR;
+	transition: 0.7s;
 
 }
 .rM>p:nth-child(2){
 	font-size: 80px;
 	font-weight: 100;
 	font-family: myFirstFontT;
+	transition: 0.7s;
 
 }
 .rM>p:nth-child(3){
 	font-size: 80px;
 	font-weight: 100;
 	font-family: myFirstFontT;
+	transition: 0.7s;
 
 }
 .rM>p:nth-child(4){
 	    font-size: 26px;
 	    	    font-weight: 200;
 	    	    font-family: myFirstFont;
+	    	    transition: 1s;
 
 	       width: 60%;
 
@@ -234,192 +245,15 @@ display: inline-block;
 }
 .bR>.button1{
 	    margin-left: 2px;
+	     transition: 2.5s;
 }
 .button1:hover {
     background-color: #333333; 
     color: white; 
 }
-/*FERİD10*/
-#service .width-1170{
-	width: 1170px;
-	margin: 0 auto;
-
-}
-#service{
-	width: 100%;
-	height: 270px;
-	background: white;
-	border:1px solid gray;
-	box-sizing: border-box;
-}
-[class*='col_'] {
-    float: left;
-   /*border:1px solid gray;
+.js>img:hover{
    box-sizing: border-box;
-*/
+   border: 7px solid white;
+   transition: 0.4s;
 }
-#service .row{
-	margin-top: 60px;
-}
-#service .col_3{
-	height: 150px;
-}
-#service .xett{
-	width: 30px;
-	height: 2px;
-	background: lightgray;
-}
-#service .col_3>div{
-	margin-left: 15px;
-}
-#cleanCode{
-	width: 100%;
-	height: 590px;
-	background-image: url(../images/clean_code_bg.jpg);
-	background-size: cover; 
-}
-#cleanCode .width-1170{
-	width: 1170px;
-	margin: 0 auto;	
-}
-#cleanCode .col_12{
-	height: 165px;
-	margin-top: 90px;	
-
-}
-#cleanCode .col_2{
-	height: 170px;
-	margin-top: 80px;
-}
-.imgi4{
-	width: 60px;
-	height: 60px;
-}
-#cleanCode .col_2 .imgi4 img{
-
-	display: block;
-	position: 
-}
-#multiPurpose{
-	width: 100%;
-	height: 466px;
-	background:white;
-}
-#multiPurpose .width-1170{
-	width: 1170px;
-	margin:0 auto;
-}
-#multiPurpose .col_5 img{
-	margin-top: -40px;
-}
-#multiPurpose .col_7{
-	height: 342px;
-	margin-top: 70px;
-}
-#multiPurpose .myFirstButton{
-	padding: 24px 27px 22px;
-	background:#1c1c1c;
-	color: #fff;
-	border: 2px solid #ccc;
-	    margin-top: 30px;
-    margin-right: 16px;
-    font-size: 13px;
-}
-#multiPurpose .mySecondButton{
-	padding: 24px 27px 22px;
-	color: #999;
-	border: 2px solid #ccc;
-	background: white;
-	font-size: 13px;
-	    margin-top: 30px;
-    margin-right: 16px;
-
-}
-#multiPurpose h2{
-	font-size: 40px;
-}
-#multiPurpose .myFirstP{
-	margin-top: 40px;
-	font-size: 17px;
-}
-#multiPurpose .mySecondP{
-	margin-top: 20px;
-	font-size: 17px;
-}
-#multiPurpose .mySecondButton:hover{
-	border: 1px solid black;
-	color:black;
-	transition: 1s;
-
-}
-
-#cleanCode .firstC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i1.png) 0 120px;
-	}
-	#cleanCode .firstC:hover{
-	margin-top: 50px;
-	background: url(../images/i1.png) 0 60px;
-	
-	}
-	#cleanCode .secondC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i2.png) 0 120px;
-	}
-	#cleanCode .secondC:hover{
-	margin-top: 50px;
-	background: url(../images/i2.png) 0 60px;
-	
-	}
-	#cleanCode .thirdC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i3.png) 0 120px;
-	}
-	#cleanCode .thirdC:hover{
-	margin-top: 50px;
-	background: url(../images/i3.png) 0 60px;
-	
-	}
-	#cleanCode .fourthC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i4.png) 0 120px;
-	}
-	#cleanCode .fourthC:hover{
-	margin-top: 50px;
-	background: url(../images/i4.png) 0 60px;
-	
-	}
-	#cleanCode .fifthC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i5.png) 0 120px;
-	}
-	#cleanCode .fifthC:hover{
-	margin-top: 50px;
-	background: url(../images/i5.png) 0 60px;
-	
-	}
-	#cleanCode .sixthC{
-	margin-top: 60px;
-	width: 60px;
-	height: 60px;
-	background: url(../images/i6.png) 0 120px;
-	}
-	#cleanCode .sixthC:hover{
-	margin-top: 50px;
-	
-	background: url(../images/i6.png) 0 60px;
-	}
-	#cleanCode .col_2 div{
-		margin-left: 67.5px;
-	}
-	
+/*FERİD10*/

@@ -40,16 +40,16 @@
     				<li>NEWS</li>
     				<li>CONTACTS</li>
     				<li>PAGES</li>
-                    <li><i class="fa fa-bars" aria-hidden="true"></i>
-</li>
-    				<li class="sea"><i class="fa fa-search" aria-hidden="true"></i>
+                    <li class="sea"><i class="fa fa-search" aria-hidden="true"></i>
 <input type="text" name="FirstName" value="Search"></li>
+                    <li onclick="closeNav()"><i class="fa fa-bars" aria-hidden="true"></i>
+    				
     			</ul>
     		</div>
     		<!-- <div class="col_1 inputt"></div> -->
     	</div>
     </div>
-	<div id="slider" style="background-image:url(white-images-master/slider/slide1_bg.jpg)">
+	<div id="slider" class="slider" style="background-image:url(white-images-master/slider/slide1_bg.jpg)">
 	<div class="main">
          <div class="row">
          	<div class="rM">
@@ -65,14 +65,14 @@
          		<button class="bR button1"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
 
          	</div>
-         	<div class="col_8">
-         		<div class="col_offset_3 col_2 sliderD" onclick="slider(this)">
+         	<div class="col_8 hH">
+         		<div class="col_offset_3 col_2 sliderD js" onclick="slider(this)" onmouseover="slider(this)">
          			<img src="white-images-master/slider/slide1_bg.jpg" alt="">
          		</div>
-         		<div class="col_2 sliderP sliderD" onclick="slider(this)">
+         		<div class="col_2 sliderP sliderD js" onclick="slider(this) ">
          			<img src="white-images-master/slider/slide2_bg.jpg" alt="">
          		</div>
-         		<div class="col_2 sliderP sliderD" onclick="slider(this)">
+         		<div class="col_2 sliderP sliderD js" onclick="slider(this)">
          			<img src="white-images-master/slider/slide3_bg.jpg" alt="">
          		</div>
          	</div>
