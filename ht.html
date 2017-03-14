@@ -7,13 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/css1/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- 		<link href='//fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
- -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto" rel="stylesheet"> -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:100|Quicksand|Roboto" rel="stylesheet"> -->
-<!-- <link rel="stylesheet" type="text/css" href="css/roboto.thin.">
- --></head>
+</head>
 <body>
 
 
@@ -29,10 +23,10 @@
     			 </a>
 
     		</div>
-    		<div class="col_2"></div>
+    		<div class="col_2 hH" id="hR" > <i class="fa fa-bars" aria-hidden="true"></i></div>
    		<div class="col_8 hR">    		
 
-    			<ul>
+    			<ul class="b">
     				<li>HOME</li>
     				<li><a>ABOUTUS</a></li>
     				<li>PROJECTS</li>
@@ -41,32 +35,43 @@
     				<li>CONTACTS</li>
     				<li>PAGES</li>
                     <li class="sea"><i class="fa fa-search" aria-hidden="true"></i>
-<input type="text" name="FirstName" value="Search"></li>
-                    <li onclick="closeNav()"><i class="fa fa-bars" aria-hidden="true"></i>
-    				
+<input type="text" name="FirstName" value="Search"></li>    				
     			</ul>
+
     		</div>
     		<!-- <div class="col_1 inputt"></div> -->
     	</div>
     </div>
 	<div id="slider" class="slider" style="background-image:url(white-images-master/slider/slide1_bg.jpg)">
 	<div class="main">
-         <div class="row">
-         	<div class="rM">
-         		<p>Creative</p>
-         		<p>White</p>
-         		<p>Templates</p>
-         		<p>The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+         <div class="row rMM">
+         	<div class="rM mR" onclick="sli(this)">
+         		<p class="fadeUp delay1">Creative</p>
+         		<p class="fadeUp delay2">White</p>
+         		<p class="fadeUp delay3">Templates</p>
+         		<p class="fadeDown delay4">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
          	</div>
+            <div class="rM mRR" onclick="sli(this)">
+                <p class="fade delay1">Responsive</p>
+                <p>Design</p>
+                <p>Theme</p>
+                <p>The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+            </div>
+            <div class="rM mRRR" onclick="sli(this)">
+                <p class="fade delay">Amazing</p>
+                <p class="">Video</p>
+                <p class="">Background</p>
+                <p class="">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+            </div>
          </div>
          <div class="row h">
          	<div class="col_22 bLL">
-         		<button class="bR button1"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-         		<button class="bR button1"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+         		<button class="bR button1" onclick="clickPrev()" ><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+         		<button class="bR button1" onclick="clickNext()"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
 
          	</div>
          	<div class="col_8 hH">
-         		<div class="col_offset_3 col_2 sliderD js" onclick="slider(this)" onmouseover="slider(this)">
+         		<div class="col_offset_3 col_2 otherclass sliderD js" onclick="slider(this)" >
          			<img src="white-images-master/slider/slide1_bg.jpg" alt="">
          		</div>
          		<div class="col_2 sliderP sliderD js" onclick="slider(this) ">

@@ -15,6 +15,9 @@
 #header {
    font-family: myFirstFont ;
 }
+.main{
+	position: relative;
+}
 /*#header>.main>.hL{
 	    display: inherit;
 }*/
@@ -63,6 +66,8 @@ width: 50%;
 #slider{
 	height: 900px;
 	 background-size:cover;
+	 background-position:center center;
+
 	 transition: 0.6s;
 
 /*background-image: url("../white-images-master/slider/slide1_bg.jpg");*/
@@ -251,9 +256,75 @@ display: inline-block;
     background-color: #333333; 
     color: white; 
 }
-.js>img:hover{
+/*.js>img:hover{
    box-sizing: border-box;
    border: 7px solid white;
    transition: 0.4s;
+}*/
+.hH>i{
+  
 }
+.otherclass>img{
+box-sizing: border-box;
+border:5px solid white;
+}
+
 /*FERİD10*/
+
+.mR{
+	position: absolute;
+	z-index: 11;
+}
+.mRR{
+	position: absolute;
+	z-index: 22;
+}
+.mRRR{
+	position: absolute;
+	z-index: 33;
+}
+.activated{
+	display: block;
+}
+.rM>p{
+	transition: 2s;
+		color: white;
+}
+.rM:nth-child(1)>p{
+	color: black;
+}
+.rM>p{
+	transform: translateY(-70px);
+    opacity: 0;
+}
+.activated p {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    
+}
+.delay1{
+	    animation-delay: 0.15s;
+}
+.delay2{
+	    animation-delay: 0.40s;
+}
+.delay3{
+	animation-delay: 0.75s;
+}
+.delay4 {
+    animation-delay: 1s;
+}
+.fadeDown {
+    opacity: 0;
+    transform: translateY(24px);
+   
+}
+.hR{
+    left: 0;
+    position: absolute;
+    background: white;
+    width: 100% !important;
+    top: 80px;
+    transition: 1s ease-in;
+     transform: rotateY(90deg); 
+}
